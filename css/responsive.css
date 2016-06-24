@@ -1,0 +1,78 @@
+@media screen and (min-width: 480px) {
+  /*****************************
+  TWO COLUMN LAYOUT
+  *****************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  /*****************************
+  WIDTH CALCULATIONS
+  Existing Margins: 2.5% (on each size = 5% total)
+  3 images x 5 margine = 15% (Margins total)
+  100% - 15% = 85%
+  85% / 3 = 28.33%
+  *****************************/
+
+  /*****************************
+  PAGE: PORTFOLIO
+  *****************************/
+
+  #gallery li {
+    width: 28.3333%;
+  }
+
+  /*****************************
+  PAGE: ABOUT
+  *****************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 5% 20px 0;
+  }
+
+      #gallery li:nth-child(4n) {
+        clear: left;
+      }
+}
+
+@media screen and (min-width: 660px) {
+
+  /*****************************
+  HEADER
+  *****************************/
+
+
+  #gallery li {
+    width: 28.3333%;
+  }
+
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width; 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left; 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+}
